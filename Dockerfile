@@ -1,3 +1,3 @@
-FROM node:12-alpine
+FROM node:16-alpine
 
 RUN npm install --global serverless
