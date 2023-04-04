@@ -4,4 +4,4 @@ RUN apk update && \
   apk --no-cache add python3 && \
   rm -rf /var/cache/apk/*
   
-RUN npm install --global serverless@3.2.9
+RUN npm install --global serverless@3.29.0
